@@ -1,0 +1,59 @@
+* Scope: Website til Nordic Motorhome Rental
+
+* Level: user goal
+
+* Primary Actor (Primære aktør): Kunden
+
+* Stakeholders and Interests (interessenter):
+
+Kunde: Vil kunne gå ind på siden og bestille motorhomes på nemmest mulige måde med mulighed for at bestille ekstra udstyr. Kunden skal have en kvittering/kontrakt på bestillingen
+Servicemedarbejderen: Kan hjælpe kunden med redigering af bestillingen.
+
+
+* Preconditions:
+Kunden har adgang til en gyldig betalingsform (VISA/Mastercard, Mobile Pay eller Google Pay)
+Servicemedarbejdere er autoriserede til at redigere kontrakten for kunden
+Betalingsservice er opsat korrekt, så informationer vedrørende salget sendes korrekt fra kunden til betalingsservice til Portalen.
+Kunden skal være over 18 og have kørekort (skrives under på terms of service).
+
+
+* Success Guarantee / Postconditions :
+Motorhome og/eller ekstraudstyr bliver udlejet, kunden får en kvittering/kontrakt
+
+* Main Success Scenario / or Basic Flow:
+Kunde ankommer til hjemmesiden og leder efter motorhome/ekstraudstyr.
+Kunde indtaster personlige informationer nødvendige for køb.
+Kunde accepterer handelsvilkår ved at klikke på ‘accepter terms of service’.
+Kunden trykker videre og videresendes til betalingsservice.
+Betalingsservice udføres korrekt og sitet modtager bekræftelse på betaling.
+Systemet gemmer data relevant for revision.
+Kunden viderestilles til en side, der viser kvittering/kontrakt og takker for købet
+Kunden modtager kvittering/kontrakten via email.
+Kunden screenshotter, downloader eller printer billetterne.
+
+* Extensions / Alternative flows:
+
+Ved systemfejl på sitets servere:
+Kunden bliver videresendt til en ekstern side, der oplyser kontaktinfo til kundeservice / administrative medarbejdere.
+Kunden tager kontakt til Nordic Motorhomes Rental.
+En Nordic Motorhomes Rental servicemedarbejder kan redigere kontrakt eller lave kontrakten lokalt på deres servere.
+
+Ved systemfejl hos betalingsservice
+Kunden bliver videresendt til en ekstern side, der oplyser kontaktinfo til kundeservice / administrative medarbejdere.
+Kunde kan muligvis oplyse betalingsoplysninger (jf. lovkrav)
+Medarbejder bestiller billetter for kunden på et senere tidspunkt
+
+Ved motorhomes udsolgt mens kunden bestiller
+Kunde bliver ikke videreført til betalingsservice
+Kunden bliver videreført til en side, der oplyser, at motorhomes er udsolgt.
+Kunden viderestilles til en side der meddeler at der ikke er flere motorhomes tilbage i denne periode og at kunden må vælge en ny periode.
+
+* Special requirements:
+Oversættelsesfunktion af salgssiden fra dansk til engelsk.
+Dokument med handelsbetingelser, som kunden skal acceptere.
+Adgang til servere (interne el. eksterne), der kan køre salgssiden og opbevare data.
+PC/Computer til kundeservice medarbejdere
+
+* Technology and data variations list:
+Mail server, der udsender kvitteringer/billetter
+Sikker server el. Decentraliseret netværk til opbevaring af kundeinformationer

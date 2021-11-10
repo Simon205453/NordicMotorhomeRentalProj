@@ -1,0 +1,52 @@
+* Scope: Website til Nordic Motorhome Rental
+
+* Level: company goal
+
+* Primary Actor (Primære aktør): service medarbejder
+
+* Stakeholders and Interests (interessenter):
+
+Kunde: vil kunne køre hen til udlejning stedet og aflevere køretøjet og/eller ekstraudstyret og underskriver afleverings kontrakten.
+Servicemedarbejderen: Skal indmelde fejl og mangler når denne skal gennemgå køretøjet efter kunden har afleveret det.
+
+
+
+* Preconditions:
+
+Kunden afleverer samme motorhome/udstyr som de har udlejet.
+Kunden har en kontrakt med Nordic Motorhomes Rental for udlejning af motorhome el. udstyr.
+Servicemedarbejdere er autoriserede til at foretage fejl og mangel indberetning.
+Betalingsservice er opsat korrekt, så informationer vedrørende salget sendes korrekt fra kunden til betalingsservice til sitet.
+
+
+
+* Success Guarantee / Postconditions :
+
+Motorhome og/eller ekstraudstyr bliver afleveret og tjekket igennem for fejl og mangler.
+
+* Main Success Scenario / or Basic Flow:
+Kunden ankommer til afleveringsstedet og aflevere motorhome/udstyr
+Kunden skriver under på afleveringskontrakt.
+Servicemedarbejder gennemgår fejl og mangler.
+Ved fejl og mangler bliver dette indberettet i systemet og kunden modtager vedligeholdelsesgebyr. Ved skade på køretøjet/udstyr bliver dette sendt til mekaniker.
+
+* Extensions / Alternative flows:
+
+Ved misvedligeholdelse af kontrakten (ikke afleveret til tiden):
+Kunden kontaktes via angivet kontaktinformation, får en advarsel og er vedlagt forsinkelsesgebyr.
+Nyt afleveringstidspunkt bliver tilføjet til kontrakt og kunden får besked om dette.
+Politiet kontaktes efter 3 udeblivelser.
+
+Kunden har lavet skader på motorhome/udstyr:
+Skaden vurderes - alt efter hvor stor skaden er, bliver der tilsendt en regning til kunden.
+
+
+* Special requirements:
+Servicemedarbejder er i stand til at snakke engelsk.
+Dokument med betingelser for aflevering af køretøjet.
+
+
+* Technology and data variations list:
+
+Mail server, der udsender kvitteringer/billetter
+Sikker server el. Decentraliseret netværk til opbevaring af kundeinformationer

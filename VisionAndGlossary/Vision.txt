@@ -1,0 +1,7 @@
+- Nordic motorhome ønsker et program til styring af udlejning af autocamper.
+- Der vil være forskellige priser eftersom udlejningsperiode ligger i bestemte perioder, eller hvilket brand og model der vælges.
+- Der kan derudover lejes cykelholder, lagner, børnesæder, picnic bord og stole.
+- Prisen vil ændres efter hvilken sæson der vælges, herunder vil den mest attraktive sæson hæve prisen med 60%, hvor den næst mest attraktive sæson vil hæves med 30%.
+- Programmet skal kunne håndtere ‘cancellation fees’.
+- Der skal være mulighed for at få bragt motorhomet til det mest praktiske sted for kunden (imod betaling).
+- Motorhomet bliver tjekket efter udlejningsperiode, hvor der derefter kan tillægges reparationsgebyr.
