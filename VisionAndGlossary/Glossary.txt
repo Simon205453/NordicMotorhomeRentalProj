@@ -1,0 +1,13 @@
+Nordic Motorhome:
+    Hjemmesiden hvor man bestiller autocamper og udstyr
+Terms of service:
+	De handelsbetingelser der vedlægges ved bestilling/betaling
+Vedligeholdelsesgebyr:
+	Det gebyr der vedlægges hvis servicemedarbejderen eller mekanikeren skal lave 	vedligeholde ting på motorhomet
+Cancellation fees:
+	De gebyrer der påfalder ved cancelation/afbestilling
+Reparationsgebyr:
+	De gebyr der påfalder hvis der er skader på autocamper eller udstyr
+Perioder:
+	Kalender perioder såsom ferie, som vægter et større forbrug af motorhomes og
+	udstyr

@@ -1,0 +1,10 @@
+Main success scenario:
+Kunden kommer ind på siden og leder efter et motorhome.
+Kunden finder det rigtige motorhome men bestiller også cykelholder og picnicbord.
+Kunden klikker på betaling og skal så acceptere terms of sercive.
+Når dette er gjort fører systemet kunden til en ekstern betalingsservice side.
+Når betalingen er gennemført føres kunden tilbage og får en kontrakt som kunden skal lave en digital underskrift på.
+
+Alternate scenarios:
+Alle motorhomes af den valgte model eller i den valgte periode er udlejede.
+Kunden bliver omdirigeret af siden til valg af periode og bliver informeret om at der ikke er motorhomes tilgængelige i den valgte tidsperiode.

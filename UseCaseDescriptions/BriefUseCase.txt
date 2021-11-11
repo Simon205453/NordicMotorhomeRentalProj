@@ -1,0 +1,3 @@
+Kunden kommer ind på siden og leder efter et motorhome. Kunden finder det rigtige motorhome men bestiller også cykelholder og picnicbord.
+Kunden klikker på betaling og skal så acceptere terms of sercive. Når dette er gjort fører systemet kunden til en ekstern betalingsservice side.
+Når betalingen er gennemført føres kunden tilbage og får en kontrakt som kunden skal lave en digital underskrift på.
